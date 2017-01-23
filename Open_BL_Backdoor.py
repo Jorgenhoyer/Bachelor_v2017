@@ -17,8 +17,8 @@ for i in range(0,1):                    #loop 1 time
     GPIO.output(outPin_rst, GPIO.LOW)   # Set outPin_rst  LOW (Active)
 
     sleep(1)                            #Pause
-    GPIO.output(outPin_sel, GPIO.HIGH)  #Set outPin_rst HIGH  (Inactive)
+    GPIO.output(outPin_rst, GPIO.HIGH)  #Set outPin_rst HIGH  (Inactive)
     sleep(1)
-    GPIO.output(outPin_rst, GPIO.HIGH)  #Set outPing_sel HIGH (Inactive)
+    GPIO.output(outPin_sel, GPIO.HIGH)  #Set outPing_sel HIGH (Inactive)
     sleep(1)                            #Wait
 GPIO.cleanup()                          #Release your pins
