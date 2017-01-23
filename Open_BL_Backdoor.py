@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-##Open bootloader backdoor, by Jorgen Hoyer##
+##Open cc2650 bootloader backdoor, via Beaglebone Green, by Jorgen Hoyer##
+#Basert på ccfg innstillinger fra JelmerT sin guide om flashing av image på cc13xx/cc26xx via USB
 
 import Adafruit_BBIO.GPIO as GPIO #import GPIO Library
 
