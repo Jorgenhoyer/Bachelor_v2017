@@ -9,4 +9,3 @@ echo "nameserver 8.8.8.4" >> /etc/resolv.conf
 
 echo "Setting the time using the Irish ntp pool"
 /usr/bin/ntpdate -b -s -u ie.pool.ntp.org
-
