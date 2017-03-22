@@ -51,6 +51,21 @@ import subprocess
 import struct
 import binascii
 import traceback
+from time import sleep
+
+outPin_rst="P8_23"
+outPin_sel="P8_25"
+
+GPIO.setup(outPin_sel, GPIO.OUT)
+sleep(0.1)
+GPIO.setup(outPin_rst, GPIO.OUT)
+sleep(0.1)
+GPIO.output(outPin_rst, GPIO.HIGH)
+sleep(0.1)
+GPIO.output(outPin_sel, GPIO.HIGH)
+
+
+
 
 try:
     import magic
