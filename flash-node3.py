@@ -53,8 +53,8 @@ import binascii
 import traceback
 from time import sleep
 
-outPin_rst="P8_7"
-outPin_sel="P8_9"
+outPin_rst="P8_26"
+outPin_sel="P8_28"
 
 GPIO.setup(outPin_sel, GPIO.OUT)
 sleep(0.1)
