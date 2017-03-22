@@ -41,7 +41,7 @@
 
 from __future__ import print_function
 from subprocess import Popen, PIPE
-
+import Adafruit_BBIO.GPIO as GPIO
 import sys, getopt
 import glob
 import time
