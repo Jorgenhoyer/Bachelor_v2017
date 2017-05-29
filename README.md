@@ -9,4 +9,4 @@ Gruppe: BO17E-12
 Medlemmer: Aleksander I. Dahl, Eivind Helle og Jørgen Høyer
 
 English:
-Contact us for english version.
+Please contact us for english version.
